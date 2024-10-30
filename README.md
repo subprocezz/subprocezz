@@ -14,7 +14,7 @@ class Subprocezz():
     def __init__(self) -> None:
         self.name: str = "Subprocezz"
         self.languages: list = ["Python", "C++", "Shell/Bash"]
-        self.tools: list = ["Bash", "Debian", "git/github", "docker", "vim"]
+        self.tools: list = ["Bash", "Linux", "git/github", "docker", "vim"]
         self.hobbies: list = ["CTF", "Cryptography", "Chess", "Gaming", "Gym"]
     
     def __str__(self) -> str:

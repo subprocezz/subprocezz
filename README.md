@@ -13,10 +13,11 @@
 class Subprocezz():
     def __init__(self) -> None:
         self.name: str = "Subprocezz"
-        self.languages: list = ["Python", "C++", "Shell/Bash"]
-        self.tools: list = ["Bash", "Linux", "git/github", "docker", "vim"]
-        self.hobbies: list = ["CTF", "Cryptography", "Chess", "Gaming", "Gym"]
-    
+        self.languages: list[str] = ["Python", "C/C++", "Shell/Bash", "MySQL", "HTML", "CSS", "Javascript"]
+        self.favorite_languages: list[str] = ["Python", "C/C++"]
+        self.tools: list[str] = ["Debian", "Ubuntu", "git/github", "nvim", "VMware/VBox"]
+        self.hobbies: list[str] = ["CTF", "Cryptography", "Chess", "Gaming", "Gym"]
+        self.currently_studying: list[str] = ["CS", "Maths", "Cryptography"]
     def __str__(self) -> str:
         return self.name
 
